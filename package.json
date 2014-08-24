@@ -1,0 +1,30 @@
+{
+  "name": "JSON_database",
+  "version": "0.0.0",
+  "description": "JSON database: Run server.js with node.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LPM42/JSON_database.git"
+  },
+  "author": "Livingston Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LPM42/JSON_database/issues"
+  },
+  "homepage": "https://github.com/LPM42/JSON_database",
+  "dependencies": {
+    "body-parser": "^1.6.5",
+    "express": "^4.8.5",
+    "grunt-contrib-jshint": "^0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express-server": "^0.4.19"
+  }
+}
